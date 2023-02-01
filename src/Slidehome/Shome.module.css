@@ -1,0 +1,103 @@
+.parent {
+  display: flex;
+  margin: auto;
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 50vh;
+  justify-content: space-around;
+  background-color: rgb(53, 53, 161);
+  color: white;
+  margin-top: 0px;
+}
+.imgp img {
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.compo {
+  /* border: 2px solid red; */
+  height: 68vh;
+  width: 80%;
+  margin: auto;
+  padding-top: 38px;
+  margin-top: -20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.mainc {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  /* border: 2px solid rgb(221, 98, 98); */
+}
+.mincs {
+  /* border: 2px solid rgb(95, 45, 45); */
+  width: 45%;
+  text-align: left;
+  font-size: 18px;
+}
+
+.view button {
+  height: 50px;
+  color: white;
+  margin-left: 40%;
+  width: 28%;
+  background-color: rgb(8, 180, 180);
+  border-radius: 15px;
+  font-size: 20px;
+  border: none;
+}
+.secparas {
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 40%;
+}
+.cons {
+  background-color: rgb(87, 87, 234);
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+  height: 20vh;
+}
+.cons2 {
+  /* border: 2px solid red; */
+  font-size: 14px;
+  margin-top: 20px;
+}
+.mainb {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.mainimg input {
+  height: 23px;
+  width: 70%;
+}
+.mainimg button {
+    height: 30px;
+    background-color: palevioletred;
+    border: none;
+}
+.mainpb {
+  margin-top: 80px;
+}
+.mainb img {
+  height: 50vh;
+  width: 80%;
+}
+.maing {
+  /* border: 2px solid red; */
+  width: 50%;
+  text-align: left;
+}
+.buts button {
+  background-color: rgb(35, 176, 176);
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}

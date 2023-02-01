@@ -1,0 +1,106 @@
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 80%;
+  margin-top: 80%;
+  margin: auto;
+  font-weight: 200;
+  text-align: center;
+  font-size: 12px;
+  height: 60px;
+  color: white;
+  background-color: rgb(28, 32, 118);
+  text-align: left;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.imgcontain {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  width: 11%;
+}
+.imgcontain img {
+  height: 13vh;
+  margin-top: -40px;
+  text-align: left;
+  color: white;
+}
+.imgcontain div {
+  font-size: 17px;
+  margin-top: 5px;
+  color: #6e6d7a;
+  color: white;
+}
+
+.btncontain {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 80px;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 17px;
+}
+.secondbtn button {
+  height: 6vh;
+  width: 7vw;
+  margin-top: -5px;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(237, 52, 160);
+  border-radius: 8px;
+  color: white;
+}
+.firstbtn button {
+  height: 6vh;
+  width: 7vw;
+  margin-top: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+}
+.btncontain button:hover {
+  background-color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .Navbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .btncontain button {
+    height: 8vh;
+    width: 15vw;
+    margin-top: 10px;
+    font-size: 24px;
+    border: none;
+    background-color: rgb(249, 221, 81);
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    width: 94%;
+    padding: 10px;
+  }
+
+  .btncontain button {
+    height: 8vh;
+    width: 24vw;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(52, 215, 237);
+    border-radius: 15px;
+  }
+
+  .imgcontain div {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}

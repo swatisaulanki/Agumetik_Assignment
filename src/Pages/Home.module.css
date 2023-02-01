@@ -1,0 +1,109 @@
+.mainhead {
+  /* border: 2px solid red; */
+  height: 99vh;
+  width: 57%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.Homecontain {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 88%;
+  margin: auto;
+  /* border: 2px solid rgb(0, 34, 255); */
+}
+.images {
+  /* border: 2px solid red; */
+  display: flex;
+}
+.climp {
+  /* border: 2px solid red; */
+  width: 16vw;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.btn button {
+  height: 45px;
+  width: 6vw;
+  font-size: 18px;
+  border: none;
+  color: black;
+  border-radius: 8px;
+}
+.save {
+  display: flex;
+  margin-left: 32%;
+}
+.btn1 button {
+  height: 45px;
+  width: 6vw;
+  margin-left: 22px;
+  font-size: 18px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  background-color: #ea4c89;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+.Hidribble {
+  /* border:2px solid red; */
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.vek img {
+  border-radius: 80px;
+}
+.hire button {
+  color: rgb(250, 245, 248);
+  height: 44px;
+  background-color: rgb(207, 5, 143);
+  width: 5%;
+  width: 7%;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.vekh h3 {
+  font-size: 23px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.vekhp p {
+  font-size: 15px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.Main {
+  /* border: 2px solid red; */
+  width: 83%;
+  margin: auto;
+  padding-bottom: 28px;
+}
+.Main h3 {
+ text-align: left;
+}
+.vekimg {
+  display: flex;
+  /* border: 2px solid red; */
+  gap: 20px;
+
+  justify-content: space-around;
+}
+.vekimg img {
+  height: 30vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
